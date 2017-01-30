@@ -1,0 +1,23 @@
+.navbar{
+  border: 2px solid grey;
+  background-color: #DCF3ED;
+}
+
+.companyname{
+  padding: 10px;
+  margin: left;
+  font-size: 30px;
+  
+}
+
+.post, .account {
+  float: right;
+  padding-right: 30px;
+  font-size: 30px;
+  padding-top: 10px;
+}
+
+li {
+  list-style-type: none;
+  display: inline-block;
+}
