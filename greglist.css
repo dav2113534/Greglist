@@ -1,6 +1,7 @@
 .navbar{
   border: 2px solid grey;
   background-color: #DCF3ED;
+  display: fixed;
 }
 
 .companyname{
@@ -16,8 +17,26 @@
   font-size: 30px;
   padding-top: 10px;
 }
+a {
+  color: purple;
+}
+
+.post:hover, .account:hover{
+  font-size: 50px;
+  background-color: none;
+}
 
 li {
   list-style-type: none;
   display: inline-block;
+}
+
+.searchbar {
+  margin-top: 6%;
+  float: left;
+}
+
+.bar {
+  margin-top: 10%;
+  float: left;
 }
